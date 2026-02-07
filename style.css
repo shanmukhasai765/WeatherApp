@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+.container {
+    padding: 30px;
+}
+
+.container button{
+    background-color: red;
+}
+
+.container button:hover{
+    background-color: rgb(146, 22, 22);
+}
+
+.tag1{
+    color: red;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.current-weather {
+    margin-top: 30px;
+}
+
+.forecast-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    width: 150px;
+}
